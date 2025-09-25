@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Poetry
+poetry.lock
+*.sqlite3
+*.db
+.cache/
+.venv/
+.env
+
+# pyenv
+.python-version
+
+# Docker
+.docker/
+volumes/
+**/data/
+**/bind_mounts/
+docker-compose.override.yml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
