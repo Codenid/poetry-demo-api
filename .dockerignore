@@ -1,0 +1,18 @@
+# Evita copiar módulos de auditoría y automatización
+Makefile
+audit_deps/
+README.md
+
+# Evita carpetas de desarrollo
+tests/
+notebooks/
+docs/
+
+# Evita archivos temporales y compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Evita entornos virtuales y control de versiones
+.venv/
+.git/
